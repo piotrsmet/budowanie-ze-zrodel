@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 25 Mar 2022 10:52:22 +0100
+Source: time
+Binary: time
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.9-0.1build2
+Distribution: jammy
+Urgency: high
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Julian Andres Klode <juliank@ubuntu.com>
+Description:
+ time       - GNU time program for measuring CPU resource usage
+Changes:
+ time (1.9-0.1build2) jammy; urgency=high
+ .
+   * No change rebuild for ppc64el baseline bump.
+Checksums-Sha1:
+ b8bfc97b03ef9cb90ece6e9e941b44a584449cd9 15492 time-dbgsym_1.9-0.1build2_amd64.ddeb
+ 6d0feb33ab9430073c0d3fd9be1416d4083c7316 6956 time_1.9-0.1build2_amd64.buildinfo
+ 36d71b589af0a6875e84e0cb7d101fd8afad6dad 49046 time_1.9-0.1build2_amd64.deb
+Checksums-Sha256:
+ 5254aefb6fe1d20a589228c0a8c0b0ed23b76715f4f5823bc094a7246c9732af 15492 time-dbgsym_1.9-0.1build2_amd64.ddeb
+ 36b29df4b5b4c857ae603ccd08d85e4ff8e8c75e1574ba29cb125fcf2579e25c 6956 time_1.9-0.1build2_amd64.buildinfo
+ d0aeaabf44f514ef4537c30dd19fab61d653df01cf5ad409fd1e4670e7e66009 49046 time_1.9-0.1build2_amd64.deb
+Files:
+ 52d0df0476bc4be02d643aa33f49c2bd 15492 debug optional time-dbgsym_1.9-0.1build2_amd64.ddeb
+ 34cc2b1b968cfe9d65d565cd6c393445 6956 utils standard time_1.9-0.1build2_amd64.buildinfo
+ d1542bd80316b6009a6a235ad6da3d2d 49046 utils standard time_1.9-0.1build2_amd64.deb
+Original-Maintainer: Bob Proulx <bob@proulx.com>
