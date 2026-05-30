@@ -1,3 +1,4 @@
+# Autor: Piotr Smęt
 # Przebieg procesu budowania pakietu
 
 Zdecydowano się na pakiet `GNU time`.
